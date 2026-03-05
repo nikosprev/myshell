@@ -1,13 +1,13 @@
 # Systems Programming - 1st Assignment
 **Nikolaos Prevolis - sdi2000172**
 
-## 🛠 Compilation & Execution
+## Compilation & Execution
 In the main directory:
 * **To compile:** `make`
 * **Troubleshooting:** If you see the message `make: Nothing to be done for 'all'`, you must run `make clean` first.
 * **To run:** `./mysh`
 
-## 📁 File Organization
+## File Organization
 * **`source/`**: All C source code files.
 * **`headers/`**: All header files.
 * **`bin/`**: Object files (`.o`) generated during compilation.
@@ -15,7 +15,7 @@ In the main directory:
 
 ---
 
-## ⌨️ Execution Instructions
+## Execution Instructions
 1.  **Alias Arguments:** Calling an alias with additional arguments is **not** supported. Any necessary arguments must be included at the time the alias is created.
 2.  **Alias Commands:** To create an alias: `createAlias {aliasname} {command}`. To delete: `deleteAlias {aliasname}`. Commands should be entered without quotes.
 3.  **History:** Use the `myHistory` command. The command selection occurs after the history is printed.
@@ -24,7 +24,7 @@ In the main directory:
 
 ---
 
-## 📝 Component Descriptions
+## Component Descriptions
 
 ### 1. `main.c`
 * **Initialization:** Creates the structures that hold aliases and history.
